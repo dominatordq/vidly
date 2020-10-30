@@ -9,3 +9,8 @@ Heroku details:
 - To set private key (ENV variable): heroku config:set vidly_jwtPrivateKey=1234
 - To set node environment to production: heroku config:set NODE_ENV=production
 - To see all environment variables: heroku config
+- To set database to Atlas: heroku config:set vidly_db=[uri]
+
+MongoDB Atlas details:
+- Cluster name: vidly
+- Database user, pass: vidlyuser, 1234
